@@ -23,6 +23,6 @@ function handleChange() {
 
 
 let whatsappSend = linkButton.addEventListener('click', () => {
-    location.href = `https://wa.me/2348132030908?text=${JSON.parse(usermessage)}`
+    location.href = `https://wa.me/2348132030908?text=${JSON.stringify(usermessage)}`
 
 })
