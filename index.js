@@ -2,7 +2,8 @@ let name = document.getElementById("Name1")
 let email = document.getElementById("Email")
 let tel = document.getElementById("tel")
 let message = document.getElementById("message")
-let submitBtn = document.getElementById("whatsapp")
+
+let linkButton = document.getElementById('whatsappbtn')
 
 let usermessage = {
     Name: name.value,
@@ -23,4 +24,8 @@ function handleChange() {
 //     submitBtn
 // }
 
-submitBtn.addEventListener('click', change)
+
+let whatsappSend = linkButton.addEventListener('click',()=>{
+    location.href=`https://wa.me/2348132030908?text=${JSON.stringify(usermessage)}`
+    
+})
