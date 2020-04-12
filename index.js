@@ -9,7 +9,7 @@ let usermessage = {
     Name: name.value,
     Email: email.value,
     Tel: tel.value,
-    Message : message.value
+    Message: message.value
 }
 
 function handleChange() {
@@ -20,12 +20,9 @@ function handleChange() {
 }
 
 
-// function change() {
-//     submitBtn
-// }
 
 
-let whatsappSend = linkButton.addEventListener('click',()=>{
-    location.href=`https://wa.me/2348132030908?text=${JSON.stringify(usermessage)}`
-    
+let whatsappSend = linkButton.addEventListener('click', () => {
+    location.href = `https://wa.me/2348132030908?text=${JSON.stringify(usermessage)}`
+
 })
