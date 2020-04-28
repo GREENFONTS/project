@@ -23,4 +23,4 @@ const Display = () => {
     }, 5000)
 }
 
-document.onload(Display())
+// document.onload(Display())

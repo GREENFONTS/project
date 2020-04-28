@@ -39,10 +39,6 @@ async function MenImg(){
 }
 
 
-
-
-
-// BoxImage[""0""].img
  const Display = () => {
     
     setInterval( () => { 
@@ -51,4 +47,24 @@ async function MenImg(){
  }, 5000)   
 }
 
-document.onload(Display())
+// document.onload(Display())
+
+let bigText = document.getElementById("jumbo-text")
+let holder = "";
+let insertText = "Greenfonts a <br> Free-lance Developer, <br> U Think it, <br> We Develop it"
+let count = 0;
+function animationText() {
+    if (holder != insertText) {
+        holder += insertText[count]
+        document.getElementById("jumbo-text").innerHTML = holder;
+        count++;
+        console.log(holder);
+    }
+    else {
+        holder = "";
+        count = 0;
+    }
+}
+setInterval(function () {
+    animationText();
+}, 200)

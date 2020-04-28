@@ -18,13 +18,12 @@
     <!--Lastest complied javascript-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./stylesheet.css">
-    <script src="index.js">git</script>
+    <!-- <script src="index.js">git</script> -->
 </head>
 
-<body>
-    <div class="container-fluid ">
-        <div class=" bg-info" id="nav">
-            <nav class="navbar navbar-expand-lg navbar-expand-md  navbar-light">
+<body class="bg-light">
+    <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg  bg-info navbar-light p-2 m-0" id="nav">
                 <a class="navbar-brand pull-right" href="#" id="name">GREENFONTS</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -40,29 +39,33 @@
                         <li class="nav-item ">
                             <a class="nav-link" href="./resume.html">RESUME</a>
                         </li>
-                        <li class="nav-item  ">
+                        <li class="nav-item ">
                             <a class="nav-link" href="./services.html">SERVICES</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link" href="./blog.html">BLOG</a>
                         </li>
-                        <li class="nav-item active ">
+                        <li class="nav-item active">
                             <a class="nav-link" href="./contacts.html">CONTACT</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        </div>
 
-        <div class="container" id="Contact">
-            <div class="container" id="maincon">
-                <img src="http://pluspng.com/img-png/png-men-men-png-495.png" class="img-rounded" id="img">
-                <div role="form" id="money">
-                    <div class="form-group">
+        <div class="container m-0 p-0 mr-lg-auto ml-lg-auto" id="Contact">
+            <div class="container mb-lg-5" id="maincon">
+                <div class="p-3 mt-1 d-lg-inline-flex mr-lg-4" id="contactimg">
+                    <img src="http://pluspng.com/img-png/png-men-men-png-495.png" 
+                    class="img-rounded " id="img">
+                </div>
+               
+                <div role="form" id="money" class="d-lg-inline-block m-lg-1 p-lg-3">
+                    <div class="form-group d-block">
                         <label for="name">Name:</label>
                         <input type="text" placeholder="Enter name" id="Name1" onchange="handleChange()" class="form-control">
                     </div>
-                    <div class="form-group">
+                    
+                    <div class="form-group d-block">
                         <label for="Email">Email:</label>
                         <input type="text" placeholder="Enter Email" id="Email" onchange="handleChange()" class="form-control">
                     </div>
@@ -81,85 +84,92 @@
                 </div>
             </div>
 
-            <div class="container" id="Contactways">
-                <h1>CONTACT US</h1>
-                <p id="Far">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                <div class="jumbotron" id="ContactLines">
+            <div class="container mt-3 p-1 mt-lg-5 pt-lg-5 mr-auto ml-auto mb-lg-5" id="Contactways">
+                <h1 class="text-center p-2">CONTACT US</h1>
+                <p class="p-2 text-center" id="Far">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+               
+                <div class="jumbotron p-1 m-1 mb-2 d-lg-inline-block" id="ContactLines">
                     <div class="container">
-                        <a href="#"><img class="img-rounded" src="/images/icon4.png"></a>
-                        <p>ADDRESS:<br> 198 West 21th Street, Suite <br> 712 New York NY
+                        <a href="#"><img class="img-rounded p-1 m-1 " src="/images/icon4.png"></a>
+                        <p class="p-0 m-0">ADDRESS:</p> 
+                        <p class="p-0 m-0">198 West 21th Street, Suite</p> <p> 712 New York NY
                             10016</p>
 
                     </div>
                 </div>
 
-                <div class="jumbotron" id="ContactLines">
+                <div class="jumbotron p-1 m-1 mb-2 d-lg-inline-block" id="ContactLines">
                     <div class="container">
-                        <a href="#"><img class="img-rounded" src="/images/icon5.png"></a>
-                        <p><b>CONTACT NUMBER</b><br> +1235 2355 98</p>
+                        <a href="#"><img class="img-rounded p-1 m-1" src="/images/icon5.png"></a>
+                        <p class="p-0 m-0"><b>CONTACT NUMBER</b></p>
+                        <br>
+                        <p class="p-0 m-0"> +1235 2355 98</p>
 
                     </div>
                 </div>
 
-                <div class="jumbotron" id="ContactLines">
+                <div class="jumbotron p-1 m-1 mb-2 d-lg-inline-block" id="ContactLines">
                     <div class="container">
-                        <a href="godwillonyewuchii@gmail.com"><img class="img-rounded" src="/images/icon6.png"></a>
-                        <p><b>EMAIL ADDRESS</b> <br> godwillonyewuchii@gmail.com</p>
+                        <a href="godwillonyewuchii@gmail.com"><img class="img-rounded p-1 m-1" src="/images/icon6.png"></a>
+                        <p class="p-0 m-0"><b>EMAIL ADDRESS</b></p>
+                        <br>
+                        <p class="p-0 m-0">godwillonyewuchii@gmail.com</p>
 
                     </div>
                 </div>
 
-                <div class="jumbotron" id="ContactLines">
+                <div class="jumbotron p-1 m-1 mb-2 d-lg-inline-block" id="ContactLines">
                     <div class="container">
-                        <a href="#"><img class="img-rounded" src="/images/icon7.png"></a>
-                        <p><b>WEBSITE</b> <br> yoursite.com</p>
+                        <a href="#"><img class="img-rounded p-1 m-1" src="/images/icon7.png"></a>
+                        <p class="p-0 m-0"><b>WEBSITE</b></p>
+                        <br>
+                        <p class="p-0 m-0">oursite.com</p>
 
                     </div>
                 </div>
 
             </div>
 
-            <div class="container" id="part_3">
-                <div class="container">
-                    <h3>About</h3>
-                    <p>Far far away, behind the word mountains,<br>
+            <div class="container mr-auto ml-auto" id="part_3">
+                <div class="container p-2 m-0 p-lg-1 d-lg-inline-block mr-lg-4">
+                    <h3 class="text-center pt-1 ml-lg-2">About</h3>
+                    <p class="p-0 ml-lg-2">Far far away, behind the word mountains,<br>
                         far from the countries Vokalia and
                         Consonantia, there lived the blind texts</p>
                 </div>
 
-                <div class="Container">
-                    <h3>Services</h3>
-                    <p>+ Web Design</p>
-                    <p>+ Web Development</p>
-                    <p>+ Business Strategy</p>
-                    <p>+ Data Analysis</p>
-                    <p>+ Graphic Design</p>
+                <div class="Container d-lg-inline-block p-lg-1 mr-lg-4">
+                    <h3  class="text-center pt-1">Services</h3>
+                    <p class="ml-2 mb-0">+ Web Design</p>
+                    <p class="ml-2 mb-0">+ Web Development</p>
+                    <p class="ml-2 mb-0">+ Business Strategy</p>
+                    <p class="ml-2 mb-0">+ Data Analysis</p>
+                    <p class="ml-2 mb-0">+ Graphic Design</p>
                 </div>
-                <div class="Container">
-                    <h3>Have a Question?</h3>
-                    <br>
-                    <p>+203 Fake St.Mountain view,
+                <div class="Container pt-3 d-lg-inline-block p-lg-1 m-lg-2 mb-lg-0 pt-lg-1 mr-lg-3">
+                    <h3 class="text-center">Have a Question?</h3>
+                    <p class="ml-2 mb-1 p-lg-1 m-lg-1">+203 Fake St.Mountain view,</p>
 
-                        <p> San Francisco, California,USA. </p>
-                        <p>+ 2 392 3929 210</p>
-                        <p>+ info@yourdomain.com</p>
+                        <p class="ml-2 mb-1 p-lg-1 m-lg-0"> San Francisco, California,USA. </p>
+                        <p class="ml-2 mb-1 p-lg-1 m-lg-0">+ 2 392 3929 210</p>
+                        <p class="ml-2 mb-1 p-lg-1 m-lg-0">+ info@yourdomain.com</p>
 
                 </div>
             </div>
-            <div class="container" id="Icons">
-                <a href="https//www.twitter.com" target="blank"><img class="img-rounded" src="/ICONS/twitter.png"></a>
-                <a href="https//www.facebook.com" target="blank"><img class="img-rounded" src="/ICONS/facebook.png"></a>
-                <a href="https//www.instagram.com" target="blank"><img class="img-rounded"
+            <div class="container mb-3 mt-lg-0" id="Icons">
+                <a href="https//www.twitter.com" target="blank"><img class="img-rounded mr-4 mt-3 mr-lg-5" src="/ICONS/twitter.png"></a>
+                <a href="https//www.facebook.com" target="blank"><img class="img-rounded mr-4 mt-3 mr-lg-5" src="/ICONS/facebook.png"></a>
+                <a href="https//www.instagram.com" target="blank"><img class="img-rounded mr-4 mt-3 mr-lg-5"
                         src="/ICONS/instagram.png"></a>
             </div>
         </div>
 
-        <footer class="container">
+        <footer class="container-fluid mt-2 mb-1 p-1 p-lg-1 bg-info text-center">
             <p>Copyright @2019 All rights reserved|This template is made by Greenfonts</p>
         </footer>
 
     </div>
-    <script src="./index.js"></script>
+    <!-- <script src="./index.js"></script> -->
 </body>
 
 </html>
